@@ -4,7 +4,7 @@ Machine learning pipeline for detecting dengue fever from Raman spectra of serum
 
 The pipeline uses **StandardScaler → PCA → SMOTE → Linear Discriminant Analysis (LDA)** and is evaluated with **patient-wise nested cross-validation**, so no patient ever appears in both the training and test data.
 
-> **Disclaimer:** This is an academic research project. It is not a medical device and must not be used for clinical diagnosis.
+
 
 ---
 
@@ -36,8 +36,6 @@ Reference result from the literature (PCA-LDA on Raman spectra of dengue sera): 
 - 138 duplicate spectra (all inside the same patient) were removed, leaving **622 unique spectra** (340 dengue, 282 healthy)
 
 Expected CSV format: columns `patient_id`, `label` (1 = dengue, 0 = healthy), and the `wn_*` feature columns.
-
-> The dataset is **not included** in this repository. Add it yourself as `dengue_preprocessed.csv`, and make sure you have permission to share the data before publishing it.
 
 ---
 
