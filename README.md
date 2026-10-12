@@ -125,6 +125,6 @@ Python, NumPy, pandas, scikit-learn, imbalanced-learn, Matplotlib, Seaborn
 
 ## Author
 
-**Maroof**, BS Computer Science (Final Year)
+**Maroof**, BS Computer Science
 [https://www.linkedin.com/in/maroof-ali-19930b3b4 
 Email: maroofrind124@gmail.com]
